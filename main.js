@@ -10,13 +10,16 @@ r=input.value
 
 input.forEach((item, indx) => {
 item.addEventListener("change", (eo) => {
+
   let iv=item.value
   let OP=document.getElementsByClassName("iprice")[indx]
   
   ON=OP.textContent.replace("$","")
   maxvalue=iv*ON
 
-// let maxvalue1=iv[0]*ON
+
+
+ maxvalue1=iv*ON
 // let maxvalue2=iv[1]*ON
 // let maxvalue3=iv[2]*ON
 // let maxvalue4=iv[3]*ON
@@ -26,13 +29,14 @@ item.addEventListener("change", (eo) => {
 // let maxvalue8=iv[7]*ON
 // let maxvalue9=iv[8]*ON
 // let maxvalue10=iv[9]*ON
-alor.innerText=   //allmaxvaluecomaninaition
+ //allmaxvaluecomaninaition
 // console.log(maxvalue1);
 // console.log(maxvalue2);
 
 
   console.log(maxvalue);
 atocart[indx].innerText= `Add To Cart ${item.value} Items`
+item.preventDefault()
 })
 
 
@@ -42,5 +46,5 @@ atocart[indx].innerText= `Add To Cart ${item.value} Items`
 bag.addEventListener("click", (eo) => {
   big.classList.add("black")
 alor.classList.remove("invisible")
-
+alor.innerText= maxvalue1 
 })
