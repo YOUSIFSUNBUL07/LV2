@@ -1,0 +1,142 @@
+
+
+
+html{
+  background-image: linear-gradient(rgb(117, 147, 236),rgb(248, 49, 165), rgba(255, 252, 101, 0.703));
+
+
+  .invisible{
+    display: none;
+  }
+/* 
+  background-image: linear-gradient(135deg, #6ea8fe, #d63384, #ffe066); */
+}
+
+.black{
+  display: none;}
+  .product-img {
+    transition: transform 0.6s ease;
+  }
+  .product-img:hover {
+    transform: translateY(-12px);
+  border: 1.2px solid rgb(14, 255, 243);
+  text-shadow: 1px 1px 3px;
+  /* background: rgba( 16, 240, 204, 1 ),rgb(234, 255, 0); */
+  box-shadow: 8px 8px 52px 0 rgb(29, 255, 225);
+  backdrop-filter: blur( 16px );
+  -webkit-backdrop-filter: blur( 16px );
+  border-radius: 7px;
+  }
+
+#buyPlace{
+
+  height: 200px;
+  width: 450px
+}
+input{
+background: rgba( 16, 240, 204, 0.6 );
+box-shadow: 0 8px 32px 0 rgba(141, 143, 216, 0.241);
+backdrop-filter: blur( 7px );
+-webkit-backdrop-filter: blur( 7px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );;
+transition: 1s;
+}
+input:hover{
+  background: rgba( 16, 240, 204, 1 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 16px );
+  -webkit-backdrop-filter: blur( 16px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.icon-cart:before {
+  content: "\e93a";
+}
+
+
+
+
+
+
+
+
+#lamorgeenee{
+  height: 200px;
+  /* width: 50%; */
+  width: 450px;
+}
+
+#house1{
+padding-left: 520px;
+margin-top: -307px;
+font-size: 95%;;
+}
+#house1img{
+  height: 200px;
+  width: 450px
+}
+#house2img{
+  height: 200px;
+  width: 450px
+}
+#s25img{
+  height: 200px;
+  width: 450px;
+  margin-left: -33px;
+}
+#s25{
+  margin-left: 550px;
+  margin-top: -309px;
+}
+.iprice{
+color: rgb(0, 255, 0);
+font-weight:bold;
+transition: text-shadow 0.5s;
+}
+.iprice:hover{
+  text-shadow: 0px 0px 2px rgb(0, 255, 0), 0px 0px 1px rgb(102, 255, 0) ;
+}
+#iphone15img{
+height: 200px;
+width: 450px;
+}
+#RichLaptop{
+  margin-left: 515.5px;
+  margin-top: -310px;
+}
+#RichLaptopimg{
+height: 200px;
+width: 450px;
+}
+#ps5{
+}
+#ps5img{
+  height: 200px;
+  width: 450px;
+}
+#applewatch{
+  margin-left: 515.5px;
+  margin-top: -310px;
+}
+#applewatchimg{
+  height: 200px;
+  width: 450px;
+}
+#KNY{
+}
+#KNYimg{
+  height: 200px;
+  width: 450px;
+}
+#harry{ 
+  margin-left: 515.5px;
+  margin-top: -309px;
+}
+#harryimg{
+  height: 200px;
+  width: 450px;
+}
+
+
