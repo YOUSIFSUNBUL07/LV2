@@ -1,8 +1,7 @@
 
 
-
 html{
-  background-image: linear-gradient(rgb(117, 147, 236),rgb(248, 49, 165), rgba(255, 252, 101, 0.703));
+  background-image: linear-gradient(rgb(117, 147, 236),rgb(248, 49, 165), rgba(255, 252, 101, 0.703),rgb(52, 103, 255));
 
 
   .invisible{
@@ -94,6 +93,7 @@ font-size: 95%;;
 color: rgb(0, 255, 0);
 font-weight:bold;
 transition: text-shadow 0.5s;
+
 }
 .iprice:hover{
   text-shadow: 0px 0px 2px rgb(0, 255, 0), 0px 0px 1px rgb(102, 255, 0) ;
@@ -155,5 +155,64 @@ width: 450px;
   height: 200px;
   width: 450px;
 }
+#ferrari{
+  /* margin-left: 1025.5px;
+  margin-top: -1880px; */
+  position: absolute;
+  left: 1025.5px;
+  top: 210px;
+}
+#ferrariimg{ 
+  height: 200px;
+  width: 450px;
+}
+#marc{
+  position: absolute;
+  left: 1025.5px;
+  top: 523px;
+}
+#marcimg{
+  height: 200px;
+  width: 450px;
+}
+#oxford{
+  position: absolute;
+  left: 1025.5px;
+  top: 838px;
+}
+#oxfordimg{
+  height: 200px;
+  width: 450px;
+}
+#yugi{
+  /* position: absolute;
+  left: 1025.5px;
+  top: 1151px; */
 
+  position: absolute;
+  left: 1025.5px;
+  top: 1464px;
+}
+#yugiimg{
+  height: 200px;
+  width: 450px;
+}
+  #harvard{/*position: absolute;
+  left: 1025.5px;
+  top: 1464px; */ 
 
+  position: absolute;
+  left: 1025.5px;
+  top: 1151px;
+}
+#harvardimg{  height: 200px;
+  width: 450px;}
+#addobe{
+  position: absolute;
+  left: 1025.5px;
+  top: 1771px;
+}
+#addobeimg{
+  height: 200px;
+  width: 450px;
+}
