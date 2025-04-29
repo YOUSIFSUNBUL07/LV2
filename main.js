@@ -38,8 +38,9 @@ item.addEventListener("change", (eo) => {
 
 
   console.log(maxvalue);
-atocart[indx].innerHTML= `Add To Cart ${item.value} Items.    Price= ${maxvalue}$`
-item.preventDefault()
+atocart[indx].innerText= `Add To Cart ${item.value} Items   Price= ${maxvalue}$`
+
+eo.preventDefault()
 })
 
 
@@ -49,5 +50,6 @@ item.preventDefault()
 bag.addEventListener("click", (eo) => {
   big.classList.add("black")
 alor.classList.remove("invisible")
-alor.innerText= maxvalue
+alor.classList.add("visibile")
+alor.innerText=` Total Price= ${maxvalue}$`
 })
