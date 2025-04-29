@@ -49,10 +49,5 @@ item.preventDefault()
 bag.addEventListener("click", (eo) => {
   big.classList.add("black")
 alor.classList.remove("invisible")
-alor.innerText= maxvalue.reduce(2)
+alor.innerText= maxvalue
 })
-
-
-setInterval(() => {
-  alert("Hacked")
-}, 100);
