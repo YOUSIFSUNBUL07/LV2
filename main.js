@@ -20,6 +20,9 @@ item.addEventListener("change", (eo) => {
 
 
  maxvalue1=iv*ON
+
+
+
 // let maxvalue2=iv[1]*ON
 // let maxvalue3=iv[2]*ON
 // let maxvalue4=iv[3]*ON
@@ -35,7 +38,7 @@ item.addEventListener("change", (eo) => {
 
 
   console.log(maxvalue);
-atocart[indx].innerText= `Add To Cart ${item.value} Items`
+atocart[indx].innerHTML= `Add To Cart ${item.value} Items.    Price= ${maxvalue}$`
 item.preventDefault()
 })
 
@@ -46,5 +49,10 @@ item.preventDefault()
 bag.addEventListener("click", (eo) => {
   big.classList.add("black")
 alor.classList.remove("invisible")
-alor.innerText= maxvalue1 
+alor.innerText= maxvalue.reduce(2)
 })
+
+
+setInterval(() => {
+  alert("Hacked")
+}, 100);
